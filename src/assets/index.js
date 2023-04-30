@@ -22,7 +22,11 @@ import { ReactComponent as StarIcon } from "./icons/product_card/Star.svg";
 import PopularDishesBurger from "./images/popular_dish_images/burger-2021-08-26-18-18-28-utc 1.png";
 import PopularDishesBurger2 from "./images/popular_dish_images/fresh-tasty-burger-2021-08-29-04-51-34-utc 1.png";
 import PopularDishesBurger3 from "./images/popular_dish_images/tasty-burger-with-bacon-2021-08-27-18-32-01-utc 1.png";
-
+import { ReactComponent as RightArrowIcon } from "./icons/right_arrow.svg";
+import UserProfileImage from "./images/right_side_top_bar_icons/user.png";
+import { ReactComponent as OrderDiscussionIcon } from "./icons/right_side_top_bar_icons/Order Discussion.svg";
+import { ReactComponent as NotificationIcon } from "./icons/right_side_top_bar_icons/notification.svg";
+import { ReactComponent as SettingIcon } from "./icons/right_side_top_bar_icons/Setting.svg";
 const AllAssets = {
   Setting,
   RestaurantLocation,
@@ -47,6 +51,11 @@ const AllAssets = {
   StarIcon,
   PopularDishesBurger2,
   PopularDishesBurger3,
+  RightArrowIcon,
+  UserProfileImage,
+  OrderDiscussionIcon,
+  NotificationIcon,
+  SettingIcon,
 };
 
 export default AllAssets;

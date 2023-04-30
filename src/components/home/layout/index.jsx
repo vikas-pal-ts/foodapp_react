@@ -7,6 +7,7 @@ import {
 } from "./index.styled";
 import HomeLeftSide from "./leftsidebar";
 import HomeContent from "./content";
+import RightSideBarContent from "./rightsidebar";
 
 const HomeLayout = () => {
   return (
@@ -17,7 +18,9 @@ const HomeLayout = () => {
       <HomeLayoutContent>
         <HomeContent />
       </HomeLayoutContent>
-      <HomeLayoutRightSide></HomeLayoutRightSide>
+      {/* <HomeLayoutRightSide>
+        <RightSideBarContent />
+      </HomeLayoutRightSide> */}
     </HomeLayoutContainer>
   );
 };

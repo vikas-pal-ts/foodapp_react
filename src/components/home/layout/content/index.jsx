@@ -9,7 +9,7 @@ export const HomeContentContainer = styled.div`
   width: 100%;
   /* height: 100%; */
   /* padding: 0px 40px; */
-  margin-top: 50px;
+  margin-top: 45px;
 `;
 
 export const HomeContentHeader = styled.div`
@@ -24,6 +24,8 @@ export const HomeContentHeaderTitle = styled.h1`
   font-size: 36px;
   line-height: 54px;
   color: #2e2e2e;
+  margin: 0px;
+  margin-bottom: 30px;
 `;
 
 export const HomeContentSearchInputContainer = styled.div`
@@ -34,6 +36,7 @@ export const HomeContentSearchInputContainer = styled.div`
   display: flex;
   align-items: center;
   padding: 2px 32px 2px 24px;
+  align-self: baseline;
 `;
 
 export const HomeContentSearchInput = styled.input`
@@ -114,6 +117,22 @@ export const HomeContentDishesShowCardViewAllBtn = styled.div`
   font-weight: 400;
   font-size: 18px;
   color: #f8b602;
+  cursor: pointer;
+  /* background-color: white; */
+  border-radius: 20px;
+  padding: 5px 10px;
+  &:hover {
+    background-color: #f8b602;
+    color: white;
+    & span {
+      color: white;
+      & svg {
+        & path {
+          fill: white;
+        }
+      }
+    }
+  }
 `;
 
 export const HomeContentCardContainer = styled.div`
@@ -292,6 +311,9 @@ export const HomeContentSectionHeaderViewAll = ({
       <HomeContentDishesShowCardTitle>{title}</HomeContentDishesShowCardTitle>
       <HomeContentDishesShowCardViewAllBtn onClick={btnOnClick}>
         {btnTitle}
+        <span style={{ marginLeft: "10px" }}>
+          <AllAssets.RightArrowIcon />
+        </span>
       </HomeContentDishesShowCardViewAllBtn>
     </HomeContentDishesShowCardHeader>
   );

@@ -7,6 +7,9 @@ export const HomeCategoryData = [
   { title: "Chicken", Icon: AllAssets.Chicken },
   { title: "Pizza", Icon: AllAssets.Fast },
   { title: "Seafood", Icon: AllAssets.Fish },
+  { title: "Burger", Icon: AllAssets.Burger },
+  { title: "Chicken", Icon: AllAssets.Chicken },
+  { title: "Pizza", Icon: AllAssets.Fast },
 ];
 
 export const PopularDishesData = [
@@ -37,5 +40,27 @@ export const PopularDishesData = [
     price: "35",
     discount: "90%",
     img: AllAssets.PopularDishesBurger,
+  },
+
+  {
+    title: "Fish Burger",
+    rating: 4,
+    price: "5.59",
+    discount: "15%",
+    img: AllAssets.PopularDishesBurger,
+  },
+  {
+    title: "Veg Burger",
+    rating: 4,
+    price: "100",
+    discount: "18%",
+    img: AllAssets.PopularDishesBurger2,
+  },
+  {
+    title: "Veg Burger",
+    rating: 4,
+    price: "100",
+    discount: "18%",
+    img: AllAssets.PopularDishesBurger2,
   },
 ];

@@ -16,7 +16,7 @@ export const HomeLayoutLeftSide = styled.div`
 `;
 
 export const HomeLayoutContent = styled.div`
-  width: calc(100% - 800px);
+  width: calc(100% - 345px);
   padding: 0px 50px;
   /* height: 100vh; */
   overflow: auto;
@@ -24,7 +24,7 @@ export const HomeLayoutContent = styled.div`
 `;
 
 export const HomeLayoutRightSide = styled.div`
-  width: 455px;
+  width: 300px;
   height: 100%;
   background-color: #ffffff;
 `;
